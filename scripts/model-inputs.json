@@ -1,0 +1,243 @@
+{
+  "mirrorCommit": "fd527e6f4daf732fd814314d9257df5877b844bc",
+  "mapping": {
+    "file": "docs/model-source/FMA2Obj-4.3.tsv",
+    "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+  },
+  "objects": [
+    {
+      "id": "FJ1895",
+      "file": "FJ1895.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1895_BP22966_FMA63120_Parenchyma%20of%20pancreas.obj",
+      "sha256": "bf9a56c2b1012be4b95c33a9b2acafeda92db56a1515ea7f37677449f8bb4793",
+      "bytes": 307546,
+      "mirrorPath": "meshes/FJ1895_BP22966_FMA63120_Parenchyma of pancreas.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1895_BP22966_FMA63120_Parenchyma%20of%20pancreas.obj"
+    },
+    {
+      "id": "FJ1896",
+      "file": "FJ1896.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1896_BP23800_FMA63103_Pancreatic%20duct%20tree.obj",
+      "sha256": "ac5cb45db6ed67caed60ffa1c592b40989e8290c5ef5c70e2858cae1a127f575",
+      "bytes": 344309,
+      "mirrorPath": "meshes/FJ1896_BP23800_FMA63103_Pancreatic duct tree.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1896_BP23800_FMA63103_Pancreatic%20duct%20tree.obj"
+    },
+    {
+      "id": "FJ2573",
+      "file": "FJ2573.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2573_BP24104_FMA7206_Duodenum.obj",
+      "sha256": "4e864f74d938eca6d74a185539429c1d4bbb80a8b2add7f3662b34e406c85440",
+      "bytes": 112313,
+      "mirrorPath": "meshes/FJ2573_BP24104_FMA7206_Duodenum.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2573_BP24104_FMA7206_Duodenum.obj"
+    },
+    {
+      "id": "FJ2561",
+      "file": "FJ2561.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2561_BP21570_FMA7196_Spleen.obj",
+      "sha256": "1c23d098fb67b5175b81aa899e46d7ef5721a511dc60efd64f194fce591db38b",
+      "bytes": 79066,
+      "mirrorPath": "meshes/FJ2561_BP21570_FMA7196_Spleen.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2561_BP21570_FMA7196_Spleen.obj"
+    },
+    {
+      "id": "FJ3421",
+      "file": "FJ3421.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3421_BP23568_FMA14812_Celiac%20trunk.obj",
+      "sha256": "c8c7e54db47fa16520269d0af24ca2a1e8817292d8a78a70357c494c3feb12f3",
+      "bytes": 13962,
+      "mirrorPath": "meshes/FJ3421_BP23568_FMA14812_Celiac trunk.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3421_BP23568_FMA14812_Celiac%20trunk.obj"
+    },
+    {
+      "id": "FJ3078",
+      "file": "FJ3078.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3078_BP24054_FMA76536_Trunk%20of%20common%20hepatic%20artery.obj",
+      "sha256": "641608b734d447be3f596fc50b80144be67f778b4bd3125368ddef3db740df3f",
+      "bytes": 20296,
+      "mirrorPath": "meshes/FJ3078_BP24054_FMA76536_Trunk of common hepatic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3078_BP24054_FMA76536_Trunk%20of%20common%20hepatic%20artery.obj"
+    },
+    {
+      "id": "FJ3420",
+      "file": "FJ3420.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3420_BP20232_FMA14773_Splenic%20artery.obj",
+      "sha256": "96661722071fda9d7f3f192643272fba299d2b133453e89d90d73ec3ae948384",
+      "bytes": 47672,
+      "mirrorPath": "meshes/FJ3420_BP20232_FMA14773_Splenic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3420_BP20232_FMA14773_Splenic%20artery.obj"
+    },
+    {
+      "id": "FJ3544",
+      "file": "FJ3544.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3544_BP20232_FMA14773_Splenic%20artery.obj",
+      "sha256": "924bca915ecc43ce387d0e426614138b601cf0c02e7e0abd8bfa4e14d84e2194",
+      "bytes": 219617,
+      "mirrorPath": "meshes/FJ3544_BP20232_FMA14773_Splenic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3544_BP20232_FMA14773_Splenic%20artery.obj"
+    },
+    {
+      "id": "FJ3640",
+      "file": "FJ3640.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3640_BP20232_FMA14773_Splenic%20artery.obj",
+      "sha256": "f72ad4af208b4a35c72a76f80922cd34f7ae77ab9d9e00aa0fcb5b1925037c57",
+      "bytes": 126275,
+      "mirrorPath": "meshes/FJ3640_BP20232_FMA14773_Splenic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3640_BP20232_FMA14773_Splenic%20artery.obj"
+    },
+    {
+      "id": "FJ3430",
+      "file": "FJ3430.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3430_BP20791_FMA14787_Dorsal%20pancreatic%20artery.obj",
+      "sha256": "19e40d999860f73b41b8e341add2b845e101ff1538fd4481a5556d6e09ed960b",
+      "bytes": 78909,
+      "mirrorPath": "meshes/FJ3430_BP20791_FMA14787_Dorsal pancreatic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3430_BP20791_FMA14787_Dorsal%20pancreatic%20artery.obj"
+    },
+    {
+      "id": "FJ3433",
+      "file": "FJ3433.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3433_BP20766_FMA14792_Great%20pancreatic%20artery.obj",
+      "sha256": "fab917a215e9a2e552915f6d6f5c59aa6f036aac43809134b47a5c72a077adfe",
+      "bytes": 15539,
+      "mirrorPath": "meshes/FJ3433_BP20766_FMA14792_Great pancreatic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3433_BP20766_FMA14792_Great%20pancreatic%20artery.obj"
+    },
+    {
+      "id": "FJ3444",
+      "file": "FJ3444.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3444_BP22698_FMA14790_Inferior%20pancreatic%20artery.obj",
+      "sha256": "de8aaeec4bcd7647da50ac6f22796f6a306ad7c119838670f1b2218fe3bafaa0",
+      "bytes": 55941,
+      "mirrorPath": "meshes/FJ3444_BP22698_FMA14790_Inferior pancreatic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3444_BP22698_FMA14790_Inferior%20pancreatic%20artery.obj"
+    },
+    {
+      "id": "FJ3419",
+      "file": "FJ3419.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3419_BP20977_FMA14793_Caudal%20pancreatic%20artery.obj",
+      "sha256": "dba6a61d986a22ab59e0794dbece90e2cc3e5ea514f9a6f9fa4a1876d04e4b49",
+      "bytes": 56604,
+      "mirrorPath": "meshes/FJ3419_BP20977_FMA14793_Caudal pancreatic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3419_BP20977_FMA14793_Caudal%20pancreatic%20artery.obj"
+    },
+    {
+      "id": "FJ3432",
+      "file": "FJ3432.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3432_BP22087_FMA76574_Trunk%20of%20gastroduodenal%20artery.obj",
+      "sha256": "2eb1fa4d0dcac145f71648317be29a351f5ce1bceeb4707534e3338d138a008d",
+      "bytes": 12325,
+      "mirrorPath": "meshes/FJ3432_BP22087_FMA76574_Trunk of gastroduodenal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3432_BP22087_FMA76574_Trunk%20of%20gastroduodenal%20artery.obj"
+    },
+    {
+      "id": "FJ3409",
+      "file": "FJ3409.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3409_BP22070_FMA14782_Anterior%20superior%20pancreaticoduodenal%20artery.obj",
+      "sha256": "90d923aa5757c63527b9b06a5e545b2e529077eed4c4e68d27dcea193dcabb64",
+      "bytes": 29884,
+      "mirrorPath": "meshes/FJ3409_BP22070_FMA14782_Anterior superior pancreaticoduodenal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3409_BP22070_FMA14782_Anterior%20superior%20pancreaticoduodenal%20artery.obj"
+    },
+    {
+      "id": "FJ3557",
+      "file": "FJ3557.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3557_BP21132_FMA14784_Posterior%20superior%20pancreaticoduodenal%20artery.obj",
+      "sha256": "8b2055aeae0c4ac228bbb7780446c152abf794f92e8712b260ec1326b1f69068",
+      "bytes": 27589,
+      "mirrorPath": "meshes/FJ3557_BP21132_FMA14784_Posterior superior pancreaticoduodenal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3557_BP21132_FMA14784_Posterior%20superior%20pancreaticoduodenal%20artery.obj"
+    },
+    {
+      "id": "FJ3401",
+      "file": "FJ3401.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3401_BP20430_FMA70479_Anterior%20inferior%20pancreaticoduodenal%20artery.obj",
+      "sha256": "3b7e900274acd3024b60f06bf7ae87681de444fcebc6f2d5db7bf07c7902af63",
+      "bytes": 22706,
+      "mirrorPath": "meshes/FJ3401_BP20430_FMA70479_Anterior inferior pancreaticoduodenal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3401_BP20430_FMA70479_Anterior%20inferior%20pancreaticoduodenal%20artery.obj"
+    },
+    {
+      "id": "FJ3446",
+      "file": "FJ3446.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3446_BP20203_FMA14805_Inferior%20pancreaticoduodenal%20artery.obj",
+      "sha256": "719c8233247e2e0548e6fdab781c7e55d0c40144b55b48ee39a3c7f4fc509c49",
+      "bytes": 16038,
+      "mirrorPath": "meshes/FJ3446_BP20203_FMA14805_Inferior pancreaticoduodenal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3446_BP20203_FMA14805_Inferior%20pancreaticoduodenal%20artery.obj"
+    },
+    {
+      "id": "FJ3546",
+      "file": "FJ3546.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3546_BP22238_FMA70480_Posterior%20inferior%20pancreaticoduodenal%20artery.obj",
+      "sha256": "6492bdf653db7248c99b9dd1c01f19350fae94bf12dfd6ddc420920e974b78ee",
+      "bytes": 25298,
+      "mirrorPath": "meshes/FJ3546_BP22238_FMA70480_Posterior inferior pancreaticoduodenal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3546_BP22238_FMA70480_Posterior%20inferior%20pancreaticoduodenal%20artery.obj"
+    },
+    {
+      "id": "FJ3644",
+      "file": "FJ3644.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3644_BP24097_FMA66358_Trunk%20of%20superior%20mesenteric%20artery.obj",
+      "sha256": "e7d299a2e45bab5cfc1f102ba27dc3af78c3d2b309b6d00c5ba2c5db07e472e7",
+      "bytes": 90333,
+      "mirrorPath": "meshes/FJ3644_BP24097_FMA66358_Trunk of superior mesenteric artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3644_BP24097_FMA66358_Trunk%20of%20superior%20mesenteric%20artery.obj"
+    },
+    {
+      "id": "FJ3641",
+      "file": "FJ3641.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3641_BP20220_FMA14331_Splenic%20vein.obj",
+      "sha256": "6e21d97501840a864454e0dca8e9ebec09ae7cf0b326604d709ddf8b6a9c4327",
+      "bytes": 87010,
+      "mirrorPath": "meshes/FJ3641_BP20220_FMA14331_Splenic vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3641_BP20220_FMA14331_Splenic%20vein.obj"
+    },
+    {
+      "id": "FJ3647",
+      "file": "FJ3647.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3647_BP20206_FMA14332_Superior%20mesenteric%20vein.obj",
+      "sha256": "5868700f6e29d733743db75fbcb330debd19863cf9234227b549ebf0cf08b4b0",
+      "bytes": 49230,
+      "mirrorPath": "meshes/FJ3647_BP20206_FMA14332_Superior mesenteric vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3647_BP20206_FMA14332_Superior%20mesenteric%20vein.obj"
+    },
+    {
+      "id": "FJ3082",
+      "file": "FJ3082.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3082_BP23408_FMA71904_Pre-hepatic%20portal%20vein.obj",
+      "sha256": "1e13838c7d06cb0d21c8d3056ef0fb8e4edf1880164514043f6d4473d1186fae",
+      "bytes": 222078,
+      "mirrorPath": "meshes/FJ3082_BP23408_FMA71904_Pre-hepatic portal vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3082_BP23408_FMA71904_Pre-hepatic%20portal%20vein.obj"
+    },
+    {
+      "id": "FJ3545",
+      "file": "FJ3545.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3545_BP22437_FMA15398_Pancreaticoduodenal%20vein.obj",
+      "sha256": "607bdf053fee3f6a880d764c6d68d96b9b0e4bc20d7c1b47260fe65d19b11a66",
+      "bytes": 51029,
+      "mirrorPath": "meshes/FJ3545_BP22437_FMA15398_Pancreaticoduodenal vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3545_BP22437_FMA15398_Pancreaticoduodenal%20vein.obj"
+    },
+    {
+      "id": "FJ3646",
+      "file": "FJ3646.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3646_BP22437_FMA15398_Pancreaticoduodenal%20vein.obj",
+      "sha256": "d087ced02985815cce27018354ce0a37d68d886ba109ea3e31b455caf29e77e6",
+      "bytes": 26320,
+      "mirrorPath": "meshes/FJ3646_BP22437_FMA15398_Pancreaticoduodenal vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3646_BP22437_FMA15398_Pancreaticoduodenal%20vein.obj"
+    },
+    {
+      "id": "FJ3655",
+      "file": "FJ3655.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3655_BP22437_FMA15398_Pancreaticoduodenal%20vein.obj",
+      "sha256": "9f191ef9101fba307633c536ff4efad98f1fb5d1043c15dcbd316478cf0139ad",
+      "bytes": 29204,
+      "mirrorPath": "meshes/FJ3655_BP22437_FMA15398_Pancreaticoduodenal vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3655_BP22437_FMA15398_Pancreaticoduodenal%20vein.obj"
+    }
+  ]
+}
