@@ -35,7 +35,11 @@ describe('anatomy tree adapter', () => {
   })
 
   test('maps group rows to their scene leaves and leaves to themselves', () => {
-    expect(sceneIdsForNode('group-pancreas')).toEqual(['pancreas', 'pancreatic-duct'])
+    expect(sceneIdsForNode('group-pancreas')).toEqual([
+      'pancreatic-head',
+      'pancreatic-body-and-tail',
+      'pancreatic-duct',
+    ])
     expect(sceneIdsForNode('spleen')).toEqual(['spleen'])
     expect(sceneIdsForNode('unknown')).toEqual([])
     expect(sceneIdsForNode(null)).toEqual([])
@@ -49,9 +53,9 @@ describe('anatomy tree adapter', () => {
   })
 
   test('round-trips the hidden set through the tree visibility map', () => {
-    const hidden = new Set(['pancreas', 'splenic-vein'])
+    const hidden = new Set(['pancreatic-head', 'splenic-vein'])
     const visibility = visibilityFromHidden(hidden)
-    expect(visibility).toEqual({ pancreas: false, 'splenic-vein': false })
+    expect(visibility).toEqual({ 'pancreatic-head': false, 'splenic-vein': false })
     expect(hiddenFromVisibility(visibility)).toEqual(hidden)
     expect(hiddenFromVisibility({ duodenum: true })).toEqual(new Set())
   })
@@ -59,12 +63,12 @@ describe('anatomy tree adapter', () => {
   test('rejects missing, unknown, and duplicate leaves', () => {
     expect(() => assertAnatomyMapping()).not.toThrow()
     const [first, ...rest] = anatomyTree
-    expect(() => assertAnatomyMapping(rest)).toThrow(/missing=pancreas/)
+    expect(() => assertAnatomyMapping(rest)).toThrow(/missing=pancreatic-head/)
     expect(() => assertAnatomyMapping([...anatomyTree, { id: 'islet', label: 'Islet' }])).toThrow(
       /unknown=islet/,
     )
     expect(() =>
       assertAnatomyMapping([...anatomyTree, { id: 'g', label: 'Again', children: [first] }]),
-    ).toThrow(/duplicates=pancreas/)
+    ).toThrow(/duplicates=pancreatic-head/)
   })
 })

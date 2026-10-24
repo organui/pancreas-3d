@@ -38,17 +38,18 @@
   },
   "runtime": {
     "file": "pancreas.glb",
-    "bytes": 881964,
-    "sha256": "68c2d157918282a3c76ce3fc9162e3156704eaeeff0bc955273e0d8f7e9ca33a"
+    "bytes": 883576,
+    "sha256": "f01c3c637f115f4c82d0c0ea042e1b8fe0658821a70782ec8a0086677df1f622"
   },
   "structures": [
     {
-      "id": "pancreas",
-      "fma": "FMA63120",
+      "id": "pancreatic-head",
+      "fma": "FMA10468",
       "concepts": [
         "FMA63120"
       ],
-      "sourceName": "parenchyma of pancreas",
+      "sourceName": "parenchyma of pancreas, right of the superior mesenteric vein",
+      "landmark": "the superior mesenteric vein, behind the neck of the pancreas",
       "elements": [
         {
           "element": "FJ1895",
@@ -57,7 +58,29 @@
           "sha256": "bf9a56c2b1012be4b95c33a9b2acafeda92db56a1515ea7f37677449f8bb4793",
           "bytes": 307546,
           "vertices": 2462,
-          "triangles": 4890
+          "triangles": 4890,
+          "keptTriangles": 2005
+        }
+      ]
+    },
+    {
+      "id": "pancreatic-body-and-tail",
+      "fma": "FMA14518",
+      "concepts": [
+        "FMA63120"
+      ],
+      "sourceName": "parenchyma of pancreas, left of the superior mesenteric vein",
+      "landmark": "the superior mesenteric vein, behind the neck of the pancreas",
+      "elements": [
+        {
+          "element": "FJ1895",
+          "concept": "FMA63120",
+          "sourceName": "Parenchyma of pancreas",
+          "sha256": "bf9a56c2b1012be4b95c33a9b2acafeda92db56a1515ea7f37677449f8bb4793",
+          "bytes": 307546,
+          "vertices": 2462,
+          "triangles": 4890,
+          "keptTriangles": 2885
         }
       ]
     },

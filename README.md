@@ -2,7 +2,7 @@
 
 A minimal, standalone, open-source pancreas anatomy explorer built with React, TypeScript, Three.js, React Three Fiber, Vite, and Bun. It shares its interaction design and code with [OrganUI Heart](https://github.com/organui/heart-3d).
 
-**Status:** working local demo. Fifteen selectable structures from a real, openly licensed model, responsive layouts, and checked desktop/mobile interactions. Public deployment and clinical anatomy review have not been completed.
+**Status:** working local demo. Sixteen selectable structures from a real, openly licensed model, responsive layouts, and checked desktop/mobile interactions. Public deployment and clinical anatomy review have not been completed.
 
 ![OrganUI Pancreas desktop explorer](docs/screenshots/desktop.png)
 
@@ -54,7 +54,7 @@ The app is static and uses relative build paths. No deployment has been performe
 
 > BodyParts3D / Anatomography, © The Database Center for Life Science (DBCLS), licensed under Creative Commons Attribution-Share Alike 2.1 Japan. Adapted by OrganUI.
 
-The model is a curated subset of **BodyParts3D / Anatomography 4.3**: 26 source meshes grouped into 15 structures. The model data and screenshots of it are under **[CC BY-SA 2.1 Japan](https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en)**, separately from this repository's **MIT code license**. Meshes come from a checksum-pinned public mirror and are cross-checked against the official 4.3 concept table. Read [model provenance](docs/MODEL_PROVENANCE.md), [asset attribution](public/models/ATTRIBUTION.md) and the [manifest](public/models/manifest.json).
+The model is a curated subset of **BodyParts3D / Anatomography 4.3**: 26 source meshes grouped into 16 structures, with the gland divided into its head and its body and tail where the superior mesenteric vein passes behind it. The model data and screenshots of it are under **[CC BY-SA 2.1 Japan](https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en)**, separately from this repository's **MIT code license**. Meshes come from a checksum-pinned public mirror and are cross-checked against the official 4.3 concept table. Read [model provenance](docs/MODEL_PROVENANCE.md), [asset attribution](public/models/ATTRIBUTION.md) and the [manifest](public/models/manifest.json).
 
 Descriptions summarise the [NCI SEER Training pancreas anatomy page](https://www.training.seer.cancer.gov/biliary/anatomy) and general anatomy. **Expert anatomical review is pending.** This is an educational interface demonstration, not a diagnostic or clinical tool.
 

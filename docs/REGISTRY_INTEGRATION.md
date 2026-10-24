@@ -40,7 +40,7 @@ Scene-specific logic lives in `src/anatomy-adapter.ts`, built from the existing 
 
 | Tree ID                     | Scene leaves (GLB `structureId`)                                                                                                                                         |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `group-pancreas`            | `pancreas`, `pancreatic-duct`                                                                                                                                            |
+| `group-pancreas`            | `pancreatic-head`, `pancreatic-body-and-tail`, `pancreatic-duct`                                                                                                         |
 | `group-neighbouring-organs` | `duodenum`, `spleen`                                                                                                                                                     |
 | `group-arteries`            | `celiac-trunk`, `common-hepatic-artery`, `gastroduodenal-artery`, `pancreaticoduodenal-arteries`, `splenic-artery`, `pancreatic-arteries`, `superior-mesenteric-artery` |
 | `group-veins`               | `splenic-vein`, `superior-mesenteric-vein`, `portal-vein`, `pancreaticoduodenal-veins`                                                                                  |

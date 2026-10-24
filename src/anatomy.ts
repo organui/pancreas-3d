@@ -6,27 +6,56 @@ export type Structure = {
   group: 'Pancreas' | 'Neighbouring organs' | 'Arteries' | 'Veins'
   // Official 4.3 IS-A concepts this group draws its source meshes from.
   concepts: string[]
-  // FJ element files; each element belongs to exactly one structure.
+  // FJ element files; each element belongs to exactly one structure, unless
+  // the structures are parts that divide it.
   elements: string[]
+  // Set when the source models this structure and its neighbour as one
+  // surface: it keeps the source triangles whose centre `keep` accepts.
+  part?: { landmark: string; keep: (centre: Point) => boolean }
   color: string
   description: string
   note: string
 }
 
+// A point in the source's millimetres: x toward the left side, z upward.
+export type Point = [x: number, y: number, z: number]
+
+// The superior mesenteric vein runs up behind the neck of the pancreas at
+// x ≈ −9 mm, so the gland to its right is the head. Below the body's lower
+// border, at z ≈ 1030 mm, the whole gland is head: the uncinate process hooks
+// to the left behind the vein there.
+const inHead = ([x, , z]: Point) => x < -9 || z < 1030
+const landmark = 'the superior mesenteric vein, behind the neck of the pancreas'
+
 export const anatomySource = 'https://www.training.seer.cancer.gov/biliary/anatomy'
 export const structures: Structure[] = [
   {
-    id: 'pancreas',
-    fma: 'FMA63120',
-    name: 'Pancreas',
-    sourceName: 'parenchyma of pancreas',
+    id: 'pancreatic-head',
+    fma: 'FMA10468',
+    name: 'Head of pancreas',
+    sourceName: 'parenchyma of pancreas, right of the superior mesenteric vein',
     group: 'Pancreas',
     concepts: ['FMA63120'],
     elements: ['FJ1895'],
+    part: { landmark, keep: inHead },
     color: '#dcb67e',
     description:
-      'A gland behind the stomach. Its head sits in the curve of the duodenum and its tail reaches the spleen.',
-    note: 'The gland tissue is shown as one surface. Head, body and tail are not separate meshes, so they cannot be selected on their own.',
+      'The widest part of the gland, held in the curve of the duodenum. The common bile duct runs through it, so a tumour here causes jaundice early.',
+    note: 'The source models the gland as one surface. It is divided here where the superior mesenteric vein passes behind the neck, a line surgeons also use; the head includes the uncinate process below it.',
+  },
+  {
+    id: 'pancreatic-body-and-tail',
+    fma: 'FMA14518',
+    name: 'Body and tail of pancreas',
+    sourceName: 'parenchyma of pancreas, left of the superior mesenteric vein',
+    group: 'Pancreas',
+    concepts: ['FMA63120'],
+    elements: ['FJ1895'],
+    part: { landmark, keep: (centre) => !inHead(centre) },
+    color: '#d2a86e',
+    description:
+      'Runs from the neck across the spine to the tail at the spleen, with the splenic vein along its back. Tumours here cause no jaundice and are often found late.',
+    note: 'Divided from the head where the superior mesenteric vein passes behind the neck. The source has no boundary between body and tail.',
   },
   {
     id: 'pancreatic-duct',
@@ -214,13 +243,13 @@ export const byId = Object.fromEntries(structures.map((s) => [s.id, s]))
 export type View = 'Anterior' | 'Posterior' | 'Inferior'
 export const tour: { id: string; title: string; text: string; view: View; isolate?: boolean }[] = [
   {
-    id: 'pancreas',
+    id: 'pancreatic-body-and-tail',
     title: 'A gland across the abdomen',
-    text: 'The pancreas lies across the back of the upper abdomen. Rotate the model to follow it from the duodenum on one side to the spleen on the other.',
+    text: 'The pancreas lies across the back of the upper abdomen. Rotate the model to follow its body and tail from the spine to the spleen.',
     view: 'Anterior',
   },
   {
-    id: 'duodenum',
+    id: 'pancreatic-head',
     title: 'Held in a curve',
     text: 'The head of the pancreas sits in the C-shaped curve of the duodenum, the first part of the small intestine.',
     view: 'Anterior',

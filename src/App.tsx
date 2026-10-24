@@ -335,7 +335,7 @@ export default function App() {
                   <p className="cavity-note">
                     {hidden.has(current.id)
                       ? 'The duct is hidden. Show structure to reveal it.'
-                      : hidden.has('pancreas')
+                      : hidden.has('pancreatic-head') && hidden.has('pancreatic-body-and-tail')
                         ? 'Duct visible with the gland hidden.'
                         : 'Shown through the gland tissue that surrounds it.'}
                   </p>

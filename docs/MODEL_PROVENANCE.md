@@ -24,7 +24,8 @@ The official per-element metadata table (original model filenames) could not be 
 
 | Structure | Source concept(s) | Elements |
 | --- | --- | --- |
-| Pancreas | FMA63120 parenchyma of pancreas | FJ1895 |
+| Head of pancreas (FMA10468) | FMA63120 parenchyma of pancreas, right of the superior mesenteric vein | FJ1895, divided |
+| Body and tail of pancreas (FMA14518) | FMA63120 parenchyma of pancreas, left of the superior mesenteric vein | FJ1895, divided |
 | Pancreatic duct | FMA63103 pancreatic duct tree | FJ1896 |
 | Duodenum | FMA7206 | FJ2573 |
 | Spleen | FMA7196 | FJ2561 |
@@ -40,11 +41,12 @@ The official per-element metadata table (original model filenames) could not be 
 | Portal vein | FMA71904 pre-hepatic portal vein | FJ3082 |
 | Pancreaticoduodenal veins | FMA15398 | FJ3545, FJ3646, FJ3655 |
 
-26 elements, 30,460 triangles. Each element belongs to exactly one structure; the script refuses duplicates and unused inputs. Per-element hashes, sizes and counts are in the [manifest](../public/models/manifest.json) and [selected-mappings.tsv](model-source/selected-mappings.tsv).
+26 elements, 30,460 triangles. Each element belongs to exactly one structure, except the parenchyma, which its two parts divide; the script refuses any other duplicate, unused inputs, and parts that overlap or leave a gap. Per-element hashes, sizes and counts are in the [manifest](../public/models/manifest.json) and [selected-mappings.tsv](model-source/selected-mappings.tsv).
 
 Decisions:
 
-- **One parenchyma mesh.** FMA63120 maps to FJ1895 and FJ2629. Their bounds agree within 0.2 mm; they are two versions of the same surface, and rendering both would z-fight. FJ1895 (4,890 triangles, against 4,272) is used and FJ2629 is excluded. The source has no separate head, neck, body, tail or uncinate meshes, so those cannot be selected.
+- **One parenchyma mesh.** FMA63120 maps to FJ1895 and FJ2629. Their bounds agree within 0.2 mm; they are two versions of the same surface, and rendering both would z-fight. FJ1895 (4,890 triangles, against 4,272) is used and FJ2629 is excluded. The source has no separate head, neck, body, tail or uncinate meshes.
+- **Head and body divided at a landmark.** So that a disease of the head can be shown apart from the rest of the gland, `prepare-model.ts` divides FJ1895 into two structures. This is OrganUI's derivation, not a boundary in the source. Each source triangle goes to the head when its centre lies right of x = −9 mm (where the superior mesenteric vein runs up behind the neck, the line surgeons divide the gland at) or below z = 1030 mm (the lower border of the body, under which the whole gland is head and uncinate process); every other triangle goes to the body and tail. That gives 2,005 and 2,885 of FJ1895's 4,890 triangles. The surface is not reshaped or capped, so each part is open along the cut. The neck is split between the two, and the source has no boundary between body and tail.
 - **Splenic artery** uses the IS-A trunk. Its PART-OF concept also includes the pancreatic branches (shown as their own group) and the left gastro-epiploic artery (omitted).
 - **Inferior pancreaticoduodenal artery** (FMA14805) uses its IS-A element FJ3446; its anterior and posterior branches come from their own concepts.
 - Omitted: stomach, aorta, inferior vena cava, liver, common bile duct (no mesh in the mirror), accessory pancreatic duct, smaller vessels, lymph nodes and body context. The superior mesenteric vessels extend well below the pancreas because their full trunks are included.
